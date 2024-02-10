@@ -29,7 +29,10 @@
             display: flex;
             gap: 1.5rem;
             justify-content: space-evenly;
-            margin-bottom: 1.5rem;
+            
+            &:first-child {
+                margin-bottom: 1.5rem;
+            }
         }
     }
 }

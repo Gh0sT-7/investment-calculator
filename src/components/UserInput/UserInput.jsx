@@ -65,8 +65,6 @@ export default function UserInput({ userInput, onChange, onSubmit }) {
                         />
                     </div>
                 </div>
-
-                <button type="submit">Calculate</button>
             </form>
         </div>
     );

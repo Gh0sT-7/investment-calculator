@@ -1,0 +1,26 @@
+#scopedResultsTable {
+    #result {
+        margin: 2rem auto;
+        border-spacing: 1rem;
+        max-width: 50rem;
+        padding: 1rem;
+        text-align: right;
+        table-layout: fixed;
+
+        table {
+            width: 100%;
+
+            thead {
+                font-size: 1rem;
+                color: #83e6c0;
+            }
+    
+            tbody {
+                font-size: 0.9rem;
+                font-family: 'Roboto Condensed', sans-serif;
+                color: #c2e9e0;
+            }
+        }
+
+    }
+}
