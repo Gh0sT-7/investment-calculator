@@ -22,7 +22,6 @@ export function calculateInvestmentResults({
     const annualData = [];
     // let investmentValue = initialInvestment;
     let investmentValue = parseFloat(initialInvestment); // Parse the initial investment as a float
-    const annualInvestmentFloat = parseFloat(annualInvestment); // Parse annual investment as a float
 
     for (let i = 0; i < duration; i++) {
         const interestEarnedInYear = investmentValue * (expectedReturn / 100);

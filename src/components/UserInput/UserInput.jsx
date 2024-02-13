@@ -1,7 +1,6 @@
-import { useState } from 'react';
 import './UserInput.scss';
 
-export default function UserInput({ userInput, onChange, onSubmit }) {
+export default function UserInput({ userInput, onChange, onSubmit }) {   
     function handleSubmit(event) {
         event.preventDefault();
         onSubmit();
@@ -20,6 +19,7 @@ export default function UserInput({ userInput, onChange, onSubmit }) {
                             onChange={(event) => 
                                 onChange('initialInvestment', event.target.value)
                             }
+                            placeholder='0'
                             required
                         />
                     </div>
@@ -33,6 +33,7 @@ export default function UserInput({ userInput, onChange, onSubmit }) {
                             onChange={(event) =>
                                 onChange('annualInvestment', event.target.value)
                             }
+                            placeholder='0'
                             required
                         />
                     </div>
@@ -48,6 +49,7 @@ export default function UserInput({ userInput, onChange, onSubmit }) {
                             onChange={(event) =>
                                 onChange('expectedReturn', event.target.value)
                             }
+                            placeholder='0'
                             required
                         />
                     </div>
@@ -61,6 +63,7 @@ export default function UserInput({ userInput, onChange, onSubmit }) {
                             onChange={(event) =>
                                 onChange('duration', event.target.value)
                             }
+                            placeholder='0'
                             required
                         />
                     </div>

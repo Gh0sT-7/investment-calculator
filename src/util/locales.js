@@ -228,24 +228,4 @@ var LANGUAGE_BY_LOCALE = {
 //     locale[key.replace('-', '-')] = LANGUAGE_BY_LOCALE[key];
 // }
 
-
-
-
-// Function to get the currency code for a given locale
-// export const getCurrencyForLocale = (locale) => {
-//     // Check if the locale exists in the LANGUAGE_BY_LOCALE object
-//     if (locale in LANGUAGE_BY_LOCALE) {
-//         return LANGUAGE_BY_LOCALE[locale].currency_code;
-//     }
-
-//     // If the exact locale is not found, try with just the language code
-//     const languageCode = locale.split('-')[0];
-//     if (languageCode in LANGUAGE_BY_LOCALE) {
-//         return LANGUAGE_BY_LOCALE[languageCode].currency_code;
-//     }
-
-//     // Default to GBP if no matching currency is found
-//     return 'GBP';
-// };
-
 export { LANGUAGE_BY_LOCALE };
